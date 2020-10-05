@@ -23,6 +23,13 @@ $ cd ~/cuda-cudnn_setup/cudnn
 $ ./instal.sh  
 ```
 
+# Check Tensorflow-GPU
+- tensorflow_gpu_checker.py  
+  接続されているCPU/GPUが出力される。
+
+- mnist.py  
+  mnistデータを使って学習を行う。  
+  `nvidia-smi -l1`を別端末で実行して、GPUの使用率が上がっているかを確認。
 # Comment
 - CUDAとcuDNNのバージョンの指定はそれぞれのinstall.shを書き換えてください。
 - CUDAとcuDNNのバージョンはGPUに合ったものをインストールしてください。  

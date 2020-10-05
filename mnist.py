@@ -3,7 +3,7 @@
 #https://qiita.com/Bashi50/items/9ff364f578df726f4c98
 import tensorflow
 from tensorflow import keras
-%matplotlib inline
+#matplotlib inline
 import matplotlib.pyplot as plt
 
 # Mnistをダウンロードして分けてくれる

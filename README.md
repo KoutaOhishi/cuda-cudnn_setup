@@ -23,6 +23,14 @@ $ cd ~/cuda-cudnn_setup/cudnn
 $ ./instal.sh  
 ```
 
+# Check CUDA, cuDNN version
+- CUDA
+	- ``` nvcc -V ```  
+
+- cuDNN
+	- ``` cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2 ```  
+	- ``` ls -l /usr/local/cuda/lib64/libcudnn* ```  
+
 # Check Tensorflow-GPU
 - tensorflow_gpu_checker.py  
   接続されているCPU/GPUが出力される。

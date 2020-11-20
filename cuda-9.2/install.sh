@@ -4,7 +4,7 @@ echo "----- Start Install CUDA 9.2 -----"
 echo "----------------------------------"
 
 
-sudo dpkg -i cuda-repo-ubuntu1604-9-2-local_9.2.148-1_amd64.deb 
+sudo dpkg -i cuda-repo-ubuntu1604-9-2-local*
 
 
 echo "get the key"
